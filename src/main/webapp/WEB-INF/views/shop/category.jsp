@@ -33,9 +33,8 @@
             <td>${item.id}</td>
             <td>${item.name}</td>
             <td>
-                <a href="/shop/category/detail/${list.id}">Detail</a>
-                <a href="/shop/category/update/${list.id}">Update</a>
-                <a href="/shop/category/delete?id=${list.id}">Delete</a>
+                <a href="/shop/category/detail/${item.id}">Detail</a>
+                <a href="/shop/category/delete/${item.id}">Delete</a>
             </td>
         </tr>
     </c:forEach>
